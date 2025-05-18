@@ -1,0 +1,89 @@
+body {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    display: flexbox;
+    justify-items: center;
+    width: 100%;
+}
+
+header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: flex-end; 
+    border: 1px solid red;
+    width: inherit;
+}
+
+a{
+    color: seashell;
+    text-decoration: underline;
+    padding: 1px;
+    border: 1px solid red;
+}
+
+nav{
+    padding-right: 3px;
+    align-self: center;
+    border: 1ßx solid red;
+}
+
+img{
+    opacity: 0.9;
+}
+
+ div{
+    width: inherit;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+ }
+
+
+/*starting here: classes*/
+
+.logo{
+    padding-right: 10px;
+    height: 50px;
+}
+
+
+
+.mission{
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+
+.teas{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.teas img{
+    height: 200px;
+    width: 300px;
+    opacity: 0.9;
+}
+
+.location p{
+    border: 1px solid red;
+    color: black;
+}
+/*starting here: ID's*/
